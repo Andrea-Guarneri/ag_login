@@ -17,6 +17,9 @@ This code can be used for educational purposes, such as learning HTML and CSS or
 2. Open the `index.html` file in a web browser to view the login page.
 3. Make changes to the HTML and CSS files to experiment and learn.
 
+## Access the Page
+You can access this page online via: https://loginvertigo.netlify.app/
+
 ## Features
 - Responsive layout.
 - Custom styling for form elements such as input fields and buttons.
