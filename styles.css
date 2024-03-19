@@ -4,6 +4,138 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-white: #F8fafc;
+    --color-purple: #7c3aed;
+    --color-purple-light: #9f67ff;
+    --color-black: #000;
+    --color-text-input: #94a3b8;
+    --color-border-input: #E2E8F0;
+}
+
 body {
-    background-color: red;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 13rem 13rem 7rem;
+    background-color: var(--bg-white);
+}
+
+/* FORM */
+
+.form-title {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#form {
+    padding-top: 2.5rem;
+}
+
+label {
+    font-weight: 600;
+}
+
+input::placeholder {
+    color: var(--color-text-input);
+}
+
+/* INPUT E-MAIL */
+
+.email {
+    height: 53px;
+    width: 100%;
+    border: 1px solid var(--color-border-input);
+    border-radius: 4px;
+    padding: 12px;
+    margin: 0.5rem 0 0.3rem 0;
+}
+
+.email:hover {
+    outline: 1px solid var(--color-purple);
+}
+
+/* INPUT PASSWORD */
+
+.password {
+    border: none;
+}
+
+.lb-password {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.lb-password a {
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--color-purple);
+    margin-top: 1rem;
+}
+
+.input-password {
+    height: 53px;
+    width: 100%;
+    border: 1px solid var(--color-border-input);
+    border-radius: 4px;
+    padding: 12px;
+    margin: 0.5rem 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.input-password img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.input-password:hover {
+    outline: 1px solid var(--color-purple);
+}
+
+/* BUTTONS AND LINKS */
+
+button {
+    margin: 2rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+    height: 53px;
+    background-color: var(--color-purple);
+    border-radius: 4px;
+    border: none;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-purple-light);
+}
+
+a {
+    font-weight: 700;
+    color: var(--color-purple);
+    text-decoration: none;
+}
+
+/* Right Image */
+
+#right-img {
+    background-image: url(./assets/images/photo-bg-vertigo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
 }

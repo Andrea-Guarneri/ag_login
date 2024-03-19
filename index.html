@@ -1,18 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- styles --> 
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS styles -->
     <link rel="stylesheet" href="styles.css">
 
-    <title>Document</title>
-    
+    <!-- Logo icon -->
+    <link rel="icon" href="./assets/images/icon/logo-vertigo.png" type="image/x-icon">
+    <title>Vertigo</title>
+
 </head>
+
 <body>
-    Andrea
-    
+    <main>
+        <!-- Text-Logo -->
+        <div class="logo">
+            <img src="./assets/images/logo+text.png" alt="">
+        </div>
+
+        <!-- Slogan -->
+        <div class="form-title">
+            <h1>Platform access</h1>
+            <p>Log in or register to start building your new projects today.</p>
+        </div>
+
+        <!-- FORM -->
+        <form id="form">
+
+            <!-- E-mail -->
+            <label for="email" class="lb-email">E-mail</label>
+
+            <input id="email" class="email" type="email" placeholder="Type your e-mail">
+
+            <!-- Password -->
+            <label for="password" class="lb-password">Password
+                <a href="">Forgot password?</a>
+            </label>
+
+            <div class="input-password">
+
+                <input id="password" class="password" type="password" placeholder="Type your password">
+                <img class="eye-button" src="./assets/images/icon/open-eye.png" alt="">
+
+            </div>
+
+            <!-- Button -->
+            <button id="btn-signin">Access</button>
+
+            <p>Not have an account yet?
+                <a href="">sign up</a>
+            </p>
+
+        </form>
+
+    </main>
+
+    <!-- Right image -->
+    <div id="right-img"></div>
+
 </body>
+
 </html>
