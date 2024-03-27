@@ -164,12 +164,9 @@ a {
 
 /* Responsiveness */
 
+
 @media (max-width:1024px) {
 
-    body {
-        display: flex;
-    }
-
     main {
         margin-left: auto;
         margin-right: auto;
@@ -177,28 +174,17 @@ a {
 
 }
 
-@media (max-width:870px) {
-
-    body {
-        display: flex;
-    }
-
+@media (max-width: 900px) {
     main {
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
-
 
 @media (max-width:769px) {
 
     body {
         display: flex;
-    }
-
-    main {
-        margin-left: auto;
-        margin-right: auto;
     }
 
     #right-img {
@@ -207,10 +193,7 @@ a {
 }
 
 @media (max-width:450px) {
-    main {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+
 
     .form-title {
         margin-top: 2.5rem;
