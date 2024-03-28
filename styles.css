@@ -6,15 +6,15 @@
 
 :root {
     --bg-white: #F8fafc;
-    --primary-color: #7c3aed;
-    --primary-color-light: #9f67ff;
-    --color-black: #000;
+    --primary-color: #009FE3;
+    --primary-color-light: #6fc6f4;
+    --color-dark-blue: #0b1b29;
     --color-text-input: #94a3b8;
     --color-border-input: #E2E8F0;
 }
 
 body {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;
@@ -35,6 +35,11 @@ main {
     padding-top: 2.5rem;
 }
 
+.logo img {
+    width: 160px;
+}
+
+
 /* FORM */
 
 .form-title {
@@ -47,6 +52,7 @@ main {
 .form-title h1 {
     font-weight: 700;
     font-size: 2rem;
+    color: #009FE3;
 }
 
 .form-title p {
@@ -156,7 +162,7 @@ a {
 /* Right Image */
 
 #right-img {
-    background-image: url(./assets/images/photo-bg-vertigo.png);
+    background-image: url(./assets/images/bg-logo.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
