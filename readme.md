@@ -18,7 +18,7 @@ This code can be used for educational purposes, such as learning HTML and CSS or
 3. Make changes to the HTML and CSS files to experiment and learn.
 
 ## Access the Page
-You can access this page online via: https://loginvertigo.netlify.app/
+You can access this page online via: https://ag-login.netlify.app/
 
 ## Features
 - Responsive layout.
@@ -30,8 +30,4 @@ You can access this page online via: https://loginvertigo.netlify.app/
 - `styles.css`: Contains the CSS styles for the login page layout and design.
 - `assets/images/`: Directory containing image assets used in the page (logo, background image).
 
-## Credits
-- The page uses the "Titillium Web" font from Google Fonts.
-- Logo icon sourced from "./assets/images/icon/logo-vertigo.png".
-- Background image sourced from "./assets/images/photo-bg-vertigo.png".
 
