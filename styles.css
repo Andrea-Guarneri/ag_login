@@ -23,6 +23,7 @@ body {
 section {
     width: 100%;
     display: flex;
+    align-items: center;
     background-color: var(--bg-white);
 }
 
@@ -30,9 +31,21 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 400px;
+    height: 100%;
     margin-left: 6.5rem;
+    max-width: 600px;
+    margin-right: 6.5rem;
     padding-top: 2.5rem;
+}
+
+a {
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .logo img {
@@ -42,11 +55,16 @@ main {
 
 /* FORM */
 
+form {
+    margin-top: 14rem;
+    height: 100%;
+}
+
 .form-title {
-    margin-top: 7rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-bottom: 3rem;
 }
 
 .form-title h1 {
@@ -105,10 +123,11 @@ input:focus {
 .lb-password a {
     font-weight: 700;
     font-size: 14px;
-    text-decoration: none;
     color: var(--primary-color);
     margin-top: 1rem;
 }
+
+
 
 .box-input-password {
     margin-top: 0.5rem;
@@ -147,25 +166,24 @@ button {
     font-size: 1rem;
     color: #fff;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 button:hover {
     background-color: var(--primary-color-light);
 }
 
-a {
-    font-weight: 700;
-    color: var(--primary-color);
-    text-decoration: none;
-}
 
 /* Right Image */
 
 #right-img {
-    background-image: url(./assets/images/bg-logo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    display: flex;
     width: 100%;
+}
+
+#right-img img {
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Responsiveness */
@@ -176,6 +194,7 @@ a {
     main {
         margin-left: auto;
         margin-right: auto;
+        padding: 1rem;
     }
 
 }
